@@ -1,0 +1,113 @@
+body {
+  color: #FFFFFF;
+  background-color: #27292d;
+  overflow: hidden;
+  background: #27292d url('bg.jpg') no-repeat fixed center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.slider-container {
+  position: absolute;
+  right: 0;
+  top: 30%;
+}
+
+.slider-content {
+  position: relative;
+  font-size: 32px;
+  text-transform: uppercase;
+}
+
+.boxes {
+  float: left;
+  padding: 10px 20px;
+  margin: 5px;
+  position: relative;
+}
+
+.sub-box {
+  clear: both;
+  margin-left: 40px;
+}
+
+.sub-box span {
+  color: #000000;
+  padding: 10px 20px;;
+  background-color: #FFFFFF;
+}
+
+.box1 {
+  background-color: rgb(225, 0, 176);
+}
+
+.box2 {
+  background-color: rgb(25, 51, 196);
+}
+
+.box3 {
+  background-color: rgb(25, 164, 80);
+}
+
+@keyframes heartbeat {
+  0% {
+    transform: translate(100px, 200px) scale(0)
+  }
+  30% {
+    transform: translate(-100px) scale(1.5)
+  }
+  50% {
+    transform: translate(-100px) scale(1.5)
+  }
+  70% {
+    transform: translate(-100px) scale(1.5)
+  }
+  100% {
+    transform: translate(100px ,-200px) scale(0)
+  }
+}
+
+.slider-single {
+  position: absolute;
+  right: 0;
+  width: 350px;
+  height: 50px;
+  margin: 20px;
+  transform: scale(0);
+}
+
+.animate-1 {
+  -webkit-animation-name: heartbeat; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+  transition: 300ms cubic-bezier(.17, .67, .55, 1.43);
+  animation-timing-function: ease-out;
+  animation-name: heartbeat;
+  animation-duration: 3s;
+
+  -webkit-animation-delay: 0s; /* Safari 4.0 - 8.0 */
+  animation-delay: 0s;
+}
+
+.animate-2 {
+  -webkit-animation-name: heartbeat; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+  transition: 300ms cubic-bezier(.17, .67, .55, 1.43);
+  animation-timing-function: ease-out;
+  animation-name: heartbeat;
+  animation-duration: 3s;
+
+  -webkit-animation-delay: 2s; /* Safari 4.0 - 8.0 */
+  animation-delay: 2s;
+}
+
+.animate-3 {
+  -webkit-animation-name: heartbeat; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+  transition: 300ms cubic-bezier(.17, .67, .55, 1.43);
+  animation-timing-function: ease-out;
+  animation-name: heartbeat;
+  animation-duration: 3s;
+
+  -webkit-animation-delay: 4s; /* Safari 4.0 - 8.0 */
+  animation-delay: 4s;
+}
+
