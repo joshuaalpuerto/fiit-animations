@@ -9,7 +9,7 @@ body {
 .slider-container {
   position: absolute;
   right: 0;
-  top: 30%;
+  top: 40%;
 }
 
 .slider-content {
@@ -27,7 +27,7 @@ body {
 
 .sub-box {
   clear: both;
-  margin-left: 40px;
+  margin-left: 60px;
 }
 
 .sub-box span {
@@ -37,15 +37,15 @@ body {
 }
 
 .box1 {
-  background-color: rgb(225, 0, 176);
+  background-color: #FF4F80;
 }
 
 .box2 {
-  background-color: rgb(25, 51, 196);
+  background-color: #4CA2F0;
 }
 
 .box3 {
-  background-color: rgb(25, 164, 80);
+  background-color: #53CEC8;
 }
 
 @keyframes heartbeat {
@@ -69,7 +69,7 @@ body {
 .slider-single {
   position: absolute;
   right: 0;
-  width: 350px;
+  width: 400px;
   height: 50px;
   margin: 20px;
   transform: scale(0);
@@ -81,7 +81,7 @@ body {
   transition: 300ms cubic-bezier(.17, .67, .55, 1.43);
   animation-timing-function: ease-out;
   animation-name: heartbeat;
-  animation-duration: 3s;
+  animation-duration: 2s;
 
   -webkit-animation-delay: 0s; /* Safari 4.0 - 8.0 */
   animation-delay: 0s;
@@ -93,10 +93,10 @@ body {
   transition: 300ms cubic-bezier(.17, .67, .55, 1.43);
   animation-timing-function: ease-out;
   animation-name: heartbeat;
-  animation-duration: 3s;
+  animation-duration: 2s;
 
   -webkit-animation-delay: 2s; /* Safari 4.0 - 8.0 */
-  animation-delay: 2s;
+  animation-delay: 1.5s;
 }
 
 .animate-3 {
@@ -105,9 +105,9 @@ body {
   transition: 300ms cubic-bezier(.17, .67, .55, 1.43);
   animation-timing-function: ease-out;
   animation-name: heartbeat;
-  animation-duration: 3s;
+  animation-duration: 2s;
 
   -webkit-animation-delay: 4s; /* Safari 4.0 - 8.0 */
-  animation-delay: 4s;
+  animation-delay: 3s;
 }
 
