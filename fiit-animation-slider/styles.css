@@ -31,7 +31,7 @@ body {
   top: 0;
   width: 100%;
   height: 100%;
-  transition: z-index 0ms 100ms;
+  transition: z-index 0ms 200ms;
 }
 
 .slider-single > .slider-single-image {
@@ -40,7 +40,7 @@ body {
   top: 0;
   width: 100%;
   height: 100%;
-  transition: 200ms cubic-bezier(.17, .67, .55, 1.43);
+  transition: 700ms cubic-bezier(.17, .67, .83, .67);
   transform: scale(0);
   opacity: 0;
 }
